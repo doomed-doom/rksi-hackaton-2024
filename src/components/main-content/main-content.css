@@ -1,0 +1,27 @@
+.main_section {
+    background-color: #ffffff;
+    margin: 20px 20px;
+    margin-bottom: 85px !important;
+    height: auto !important;
+    min-height: 80vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    font-family: sans-serif;
+    padding: 30px 50px;
+
+}
+
+.no_scroll {
+    position: fixed;
+}
+
+@media (prefers-color-scheme: dark) {
+    .main_section {
+        background-color: #151b23;
+        border: 1px solid rgba(255, 255, 255, 0.214);
+        box-shadow: none;
+    }
+    .main_section * {
+        color: #ffffff;
+    }
+}

@@ -1,0 +1,42 @@
+.registration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-form h1 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    padding: 5px 0;
+}
+
+.form-group input {
+    height: 40px;
+    font-size: 16px;
+    margin: 5px 0px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.rounded-button {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.bot_button {
+    text-align: center;
+}
+
+.error {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: red;
+    text-align: center;
+}

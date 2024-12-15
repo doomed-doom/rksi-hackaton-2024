@@ -1,0 +1,7 @@
+@media (prefers-color-scheme: dark) {
+    .baze{
+        box-shadow: none !important;
+        border: none !important;
+        color: #1c242f;
+    }
+}
